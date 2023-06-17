@@ -19,7 +19,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>Ur mom</p>
+              <p>Google Data Analytics Certification (completed 2022)</p>
             </li>
             <li>
               <SiCheckmarx className='service__list-icon' />
@@ -46,19 +46,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>Ok actually tho what do I put here</p>
+              <p>Data Visualization and Dashboarding</p>
             </li>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>Idk, I'll figure it out at some point I guess</p>
+              <p>Natural Language Processing</p>
             </li>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>The actual THINGS I can do</p>
+              <p>Model Deployment</p>
             </li>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>Wow I was so dumb to be </p>
+              <p>Clustering</p>
             </li>
           </ul>
         </article>
@@ -73,15 +73,15 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>Ideas for a list</p>
+              <p>Statistical Inference</p>
             </li>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>Juvenile Remarks</p>
+              <p>Numerical Interpolation</p>
             </li>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>Overstatements</p>
+              <p>Model Deployment</p>
             </li>
             <li>
               <SiCheckmarx className='service__list-icon' />
