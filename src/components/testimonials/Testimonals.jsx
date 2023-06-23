@@ -11,8 +11,8 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: PIC1,
-    name: 'Ur mom',
-    review: 'No u'
+    name: 'GDA Certification Capstone',
+    review: 'https://wrikych.github.io/GoogleCapstone_BellaBeatEDA/'
   },
   {
     avatar: PIC1,
@@ -29,8 +29,8 @@ const data = [
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>So you made it this far...</h5>
-      <h2>Some more fun</h2>
+      <h5>B-side</h5>
+      <h2>Past Projects</h2>
 
       <Swiper className='container testimonials__container'
       modules={[Pagination]}
