@@ -21,18 +21,6 @@ const Services = () => {
               <SiCheckmarx className='service__list-icon' />
               <p>Google Data Analytics Certification (completed 2022)</p>
             </li>
-            <li>
-              <SiCheckmarx className='service__list-icon' />
-              <p>Ur dad</p>
-            </li>
-            <li>
-              <SiCheckmarx className='service__list-icon' />
-              <p>Ur grandparents</p>
-            </li>
-            <li>
-              <SiCheckmarx className='service__list-icon' />
-              <p>Ur ancestors</p>
-            </li>
           </ul>
         </article>
         {/*END OF LIST 1*/}
@@ -81,11 +69,11 @@ const Services = () => {
             </li>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>Model Deployment</p>
+              <p>Predictive Modeling</p>
             </li>
             <li>
               <SiCheckmarx className='service__list-icon' />
-              <p>Understatements</p>
+              <p>Feature Engineering</p>
             </li>
           </ul>
         </article>
