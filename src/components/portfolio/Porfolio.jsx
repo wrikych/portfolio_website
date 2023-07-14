@@ -1,8 +1,9 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/port-pic-3.jpg'
+import IMG1 from '../../assets/portfolio-1.jpg'
+import IMG2 from '../../assets/portfolio-2.jpg'
+import IMG3 from '../../assets/portfolio-3.jpg'
 import writeup from '../../assets/writeup.pdf'
-import tldr from '../../assets/tldr_code.pdf'
 
 /*Fetch from github*/
 const data = [
@@ -11,23 +12,23 @@ const data = [
     image: IMG1,
     title: 'The effects of COVID-19 on Academic Decathlon (R, RMarkdown)',
     github: 'https://github.com/wrikych/AD_EDA',
-    demo: 'https://wrikych.github.io/AD_EDA/',
+    writeup: 'https://wrikych.github.io/AD_EDA/',
     
   },
   {
     id: 2,
-    image: IMG1,
-    title: 'Classification techniques and MMA (Python, Data Cleaning, Classification)',
-    github: 'https://example.com',
-    demo: writeup,
+    image: IMG2,
+    title: "A Puncher's Chance: Classification and MMA (Python, Data Cleaning, Classification)",
+    github: 'https://github.com/wrikych/MMA_Predictive_Modeling',
+    writeup: writeup,
     
   },
   { 
     id: 3,
-    image: IMG1,
-    title: 'Spotify Astrology (API, Python, Clustering)',
-    github: 'https://example.com',
-    demo: tldr,
+    image: IMG3,
+    title: 'TLDR Text Summarizer (T5 Transformer, NLP, tf-IDF)',
+    github: 'https://github.com/wrikych/tldr_tkinter_app',
+    writeup: 'https://wrikych.github.io/tldr_demo/',
      }
 ]
 
@@ -39,7 +40,7 @@ const Porfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          data.map(({id, image, title, github, demo, breakdown}) => {
+          data.map(({id, image, title, github, writeup}) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-image">
@@ -48,7 +49,7 @@ const Porfolio = () => {
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
                   <a href={github} className='btn' target='_blank'>Code</a>
-                  <a href={demo} className='btn' target='_blank'>Demonstration</a>
+                  <a href={writeup} className='btn' target='_blank'>Writeup</a>
                 </div>
               </article>
             )
