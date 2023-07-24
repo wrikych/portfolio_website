@@ -25,6 +25,8 @@ const About = () => {
               <h3>Academics</h3>
               <h5>University of Houston - Downtown</h5>
               <small>Pursuing a BS in Data Science</small>
+              <h5>Purdue University</h5>
+              <small>Physics (2016-2020) </small>
             </article>
             <article className='about__card'>
               <BsFillBriefcaseFill className='employment'/>

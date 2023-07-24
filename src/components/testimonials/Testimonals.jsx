@@ -12,19 +12,19 @@ const data = [
   {
     avatar: PIC1,
     name: 'GDA Certification Capstone',
-    review: 'https://wrikych.github.io/GoogleCapstone_BellaBeatEDA/'
+    review: <a href="https://wrikych.github.io/GoogleCapstone_BellaBeatEDA/">https://wrikych.github.io/GoogleCapstone_BellaBeatEDA/</a>
   },
   {
     avatar: PIC1,
-    name: 'Ur mom',
-    review: 'No u'
+    name: 'Predictive Modeling with Generative AI',
+    review: <a href="https://github.com/wrikych/AI_modeling">https://github.com/wrikych/AI_modeling</a>
   },
   {
     avatar: PIC1,
-    name: 'Ur mom',
-    review: 'No u'
+    name: 'Spotify Recommender',
+    review: <a href="https://github.com/wrikych/spotify_recommender">https://github.com/wrikych/spotify_recommender</a>
   }
-]
+];
 
 const Testimonials = () => {
   return (

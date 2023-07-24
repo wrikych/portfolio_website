@@ -18,7 +18,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "A Puncher's Chance: Classification and MMA (Python, Data Cleaning, Classification)",
+    title: "A Puncher's Chance: Classification and MMA (Python, Sci-Kit Learn, Data Cleaning, Classification)",
     github: 'https://github.com/wrikych/MMA_Predictive_Modeling',
     writeup: writeup,
     
