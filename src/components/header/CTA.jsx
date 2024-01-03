@@ -1,5 +1,5 @@
 import React from 'react'
-import test_resume from '../../assets/Resume.pdf'
+import test_resume from '../../assets/actual_resume.pdf'
 
 
 const CTA = () => {
